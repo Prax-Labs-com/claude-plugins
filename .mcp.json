@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "prax": {
+      "type": "http",
+      "url": "https://mcp.orabrain.com/mcp"
+    }
+  }
+}
