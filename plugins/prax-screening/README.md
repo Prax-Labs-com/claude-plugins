@@ -3,7 +3,7 @@
 Wallet, transfer and sanctions screening for agents that touch money. Installs the Prax Data Services MCP server and a skill that makes Claude screen every counterparty **before** it pays, signs, onboards or integrates — without being asked.
 
 ```
-/plugin marketplace add prax-labs/claude-plugins
+/plugin marketplace add Prax-Labs-com/claude-plugins
 /plugin install prax-screening@prax-labs
 /mcp  →  prax  →  Authenticate        # free account on mcp.orabrain.com, no card
 ```

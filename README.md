@@ -1,7 +1,7 @@
 # Prax Labs — Claude Code plugin marketplace
 
 ```
-/plugin marketplace add prax-labs/claude-plugins
+/plugin marketplace add Prax-Labs-com/claude-plugins
 /plugin install prax-screening@prax-labs
 ```
 
