@@ -1,15 +1,31 @@
 {
   "name": "prax-screening",
-  "displayName": "Prax Screening",
-  "version": "1.0.2",
-  "description": "Wallet, transfer and sanctions screening for financial-services agents: Prax Data Services MCP plus a skill that screens every counterparty before you pay, sign or onboard.",
-  "author": { "name": "Prax Labs", "email": "sales@prax-labs.com", "url": "https://mcp.orabrain.com/?src=plugin" },
+  "version": "1.1.0",
+  "description": "Counterparty screening for financial-services agents: banks and wires (BIC / IBAN / ABA / LEI), sanctions, enforcement history, licence checks, wallets and transfers. Prax Data Services MCP plus a skill that screens every counterparty before you pay, sign or onboard.",
+  "author": {
+    "name": "Prax Labs",
+    "email": "sales@prax-labs.com",
+    "url": "https://mcp.orabrain.com/?src=plugin"
+  },
   "homepage": "https://mcp.orabrain.com/?src=plugin",
   "repository": "https://github.com/Prax-Labs-com/mcp-data-services",
   "license": "MIT",
-  "privacyPolicyUrl": "https://mcp.orabrain.com/portal/privacy",
-  "icon": "./.claude-plugin/icon.png",
-  "keywords": ["aml", "kyt", "sanctions", "ofac", "wallet-screening", "web3", "compliance", "fraud", "mcp"],
+  "keywords": [
+    "aml",
+    "kyt",
+    "sanctions",
+    "ofac",
+    "wire-screening",
+    "bank-screening",
+    "kyb",
+    "enforcement",
+    "msb",
+    "wallet-screening",
+    "web3",
+    "compliance",
+    "fraud",
+    "mcp"
+  ],
   "mcpServers": "./.mcp.json",
   "skills": "./skills/",
   "commands": "./commands/"

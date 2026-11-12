@@ -1,17 +1,36 @@
 {
   "name": "prax-labs",
-  "owner": { "name": "Prax Labs", "email": "sales@prax-labs.com" },
-  "metadata": { "description": "Security and compliance tools for financial-services agents by Prax Labs", "version": "1.0.2" },
+  "owner": {
+    "name": "Prax Labs",
+    "email": "sales@prax-labs.com"
+  },
+  "metadata": {
+    "description": "Security and compliance tools for financial-services agents by Prax Labs",
+    "version": "1.1.0"
+  },
   "plugins": [
     {
       "name": "prax-screening",
-      "source": { "source": "github", "repo": "Prax-Labs-com/claude-plugins", "path": "plugins/prax-screening" },
-      "description": "Wallet, transfer and sanctions screening (Prax Data Services MCP + proactive screening skill)",
-      "version": "1.0.2",
-      "author": { "name": "Prax Labs" },
+      "source": {
+        "source": "github",
+        "repo": "Prax-Labs-com/claude-plugins",
+        "path": "plugins/prax-screening"
+      },
+      "description": "Bank / wire, sanctions, enforcement, licence, wallet and transfer screening (Prax Data Services MCP + proactive screening skill)",
+      "version": "1.1.0",
+      "author": {
+        "name": "Prax Labs"
+      },
       "homepage": "https://mcp.orabrain.com/?src=plugin",
       "category": "security",
-      "keywords": ["aml", "sanctions", "wallet-screening", "web3", "compliance"]
+      "keywords": [
+        "aml",
+        "sanctions",
+        "wire-screening",
+        "kyb",
+        "wallet-screening",
+        "compliance"
+      ]
     }
   ]
 }
