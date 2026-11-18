@@ -9,7 +9,7 @@ Counterparty screening for agents that touch money, on both rails: banks and wir
 ```
 
 What you get
-- `prax` MCP server (OAuth, no key to paste): screen_bank, screen_entity, screen_enforcement, screen_licence, screen_wallet, screen_transfer, analyze_transaction, batches, search/fetch, get_alerts.
+- `prax` MCP server (OAuth, no key to paste): screen_bank, screen_entity, screen_enforcement, screen_licence, screen_country, screen_company, screen_adverse_media, screen_domain, screen_ip, screen_securities, screen_cve, screen_package, screen_packages, screen_wallet, screen_transfer, analyze_transaction, batches, search/fetch, get_alerts.
 - Skill `prax-screening`: when to screen, how to report (verdict → evidence → action), what to do on upgrade_required.
 - `/screen <BIC|IBAN|routing no.|LEI|address|hash|transfer|name>` and `/screen-repo` (finds every address in the repo and screens them in batches).
 

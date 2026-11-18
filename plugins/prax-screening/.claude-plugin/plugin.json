@@ -1,7 +1,7 @@
 {
   "name": "prax-screening",
-  "version": "1.1.0",
-  "description": "Counterparty screening for financial-services agents: banks and wires (BIC / IBAN / ABA / LEI), sanctions, enforcement history, licence checks, wallets and transfers. Prax Data Services MCP plus a skill that screens every counterparty before you pay, sign or onboard.",
+  "version": "1.4.0",
+  "description": "Counterparty and security screening for financial-services agents: banks and wires (BIC / IBAN / ABA / LEI), sanctions and US export controls, company verification (GLEIF, Companies House, EDGAR), adverse media, enforcement history, licence checks (MSB, BitLicense, MiCA, VARA, SFC, FCA), country risk, domains / e-mail / IPs, securities, vulnerabilities and software dependencies (OSV, CISA KEV, EPSS), wallets and transfers. Prax Data Services MCP plus a skill that screens every counterparty before you pay, sign, ship or onboard.",
   "author": {
     "name": "Prax Labs",
     "email": "sales@prax-labs.com",
