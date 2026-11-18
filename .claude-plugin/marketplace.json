@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Security and compliance tools for financial-services agents by Prax Labs",
-    "version": "1.1.0"
+    "version": "1.4.0"
   },
   "plugins": [
     {
@@ -16,8 +16,8 @@
         "repo": "Prax-Labs-com/claude-plugins",
         "path": "plugins/prax-screening"
       },
-      "description": "Bank / wire, sanctions, enforcement, licence, wallet and transfer screening (Prax Data Services MCP + proactive screening skill)",
-      "version": "1.1.0",
+      "description": "Bank / wire, sanctions and export-control, company, adverse-media, enforcement, licence, country, domain / IP, securities, vulnerability / dependency, wallet and transfer screening (Prax Data Services MCP + proactive screening skill)",
+      "version": "1.4.0",
       "author": {
         "name": "Prax Labs"
       },
